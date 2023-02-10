@@ -2,8 +2,8 @@
 {
     using Models;
 
-    public class GroupSource
+    public static class GroupSource
     {
-        public static List<Group> groups { get; } = new List<Group>();
+        public static List<Group> Groups { get; } = new List<Group>();
     }
 }
